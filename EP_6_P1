@@ -1,0 +1,26 @@
+#Logical Operators
+
+print("Hello, welcome to NetworkChuck Coffee!!!!!!!!!!!!!!!!")
+
+
+name = input("What is your name?\n")
+
+
+
+if name == "Ben" or name == "Patricia" or name == "Loki":
+  evil_status = input("Are you evil?\n")
+  good_deeds = int(input("How many good deeds have you done today?\n"))
+  if evil_status == "Yes" and good_deeds < 4:
+    print("You're not welcome here " + name + "!! Get out!!")
+    quit()
+  else:
+    print("Hello " + name + ", thank you for coming in today.\n\n")
+
+else:
+    print("Hello " + name + ", thank you for coming in today.\n\n")
+
+beard_length = int(input("How long is your beard?\n"))
+
+if beard_length >= 1:
+  print("Oh, hello good sir, nice beard. You may go to the front of the line.")
+
