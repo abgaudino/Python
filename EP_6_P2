@@ -1,0 +1,12 @@
+print("Hello, welcome to NetworkChuck Coffee!!!!!!!!!!!!!!!!")
+
+
+name = input("What is your name?\n")
+
+if name != "Ben":
+#if not name == "Ben":
+  print("Get out of here!!")
+else:
+  print("Come on in!")
+
+#Booleans tested in console
