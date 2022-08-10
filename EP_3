@@ -1,0 +1,29 @@
+#simple math, order of operations
+#assign name to variable name
+name = "Anthony"
+#assign a whole number or integer to variable age
+age = 38
+#print the variables
+print(name)
+print(age)
+#print the type function for variable name - string
+print(type(name))
+#print the type function for variable age - integer
+print(type(age))
+#adding quotes around an integer changes to string
+age_str = "38"
+#create a floating point number variable
+actual_age = 38.5
+print(type(actual_age))
+print(type(age_str))
+#use python as a calculator
+print(5 + 7)
+math = 2 ** 5 + 7 - 6 * 5 / 8
+print(math)
+
+results = age + actual_age + math
+print(results)
+print(type(results))
+
+
+
