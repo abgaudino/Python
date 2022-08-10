@@ -26,4 +26,42 @@ print(results)
 print(type(results))
 
 
+##add to EP_2
+##variables 
+##Let's build a robot barista to run our coffee shop
+
+##Greeting
+print("Hello, welcome to NetworkChuck Coffee!!!!!!!")
+
+##create input variable
+#input("What is your name? ")
+
+##print the input function
+#print(input("What is your name? "))
+
+##create name variable
+#name = "NetworkChuck"
+##print name variable
+#print(name)
+
+##define the variable name equal to input from user
+name = input("What is your name? ")
+##print concatenated string to include name variable
+print("Hello " + name + ", thank you for coming in today.\n")
+##create a menu 
+menu = "Black Coffee, Espresso, Latte, Cold Brew\n"
+print(name + ", what would you like to drink today? Here is our menu: \n"
++ menu)
+##create a variable to respond to the order
+order = input()
+
+price = 5
+
+quant = input("\nHow many coffees would you like?\n")
+
+total = price * int(quant)
+
+print("Thank you. Your total is: $" + str(total))
+
+print("\nSounds good " + name + ", we'll have your " + quant + " " + order + " ready for you in a moment.")
 
