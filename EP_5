@@ -1,0 +1,45 @@
+#if else flow control
+#Ask your customer what their name is with the input() function and store that in the variable NAME.
+name = input("What is your name? ")
+
+#Greet the customer with their name and thank them for coming in today using concatenation.
+
+if name == "Ben":
+  evil_status = input("Are you evil?\n")
+  #create a nested if statement
+  if evil_status == "Yes":
+    print("You're not welcome here Ben!! Get out!!")
+    quit()
+  else:
+    print("I'm glad you're not evil, Ben. Thanks for coming in man!")
+else:
+  print("Hello " + name + ", thank you for coming in today.\n\n")
+
+##Coffee menu 
+menu = "Black Coffee, Espresso, Latte, Cold Brew\n"
+
+#ask the custome rwhat they would like to drink and store it in the variable order
+order = input(name + ", what would you like from our menu today? Here is what we are serving.\n" + menu + "\n")
+
+#Ask the customer how many coffees they would like and store it in the variable QUANT
+quant = input("How many coffees would you like?\n")
+
+#Set the price for coffee
+if order =="Latte":
+  whip = input("Would you like whipped cream?\n")
+  if whip == "Yes":
+    price = 17
+  else:
+    price = 15
+elif order == "Black Coffee":
+  price = 3
+elif order == "Espresso":
+  price = 5
+elif order == "Cold Brew":
+  price = 7
+else:
+  print("I'm sorry we don't have that here.")
+  price = 0
+
+print(price)
+
