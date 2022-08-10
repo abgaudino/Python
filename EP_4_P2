@@ -1,0 +1,33 @@
+##Let's build a robot barista to run our coffee shop
+
+#Greeting
+print("Hello, welcome to NetworkChuck Coffee!!!!!!!")
+
+#Ask your customer what their name is with the input() function and store that in the variable NAME.
+name = input("What is your name? ")
+
+#Greet the customer with their name and thank them for coming in today using concatenation.
+
+if name == "Ben":
+  print("You're not welcome here Ben!! Get out!!")
+  quit()
+else:
+  print("Hello " + name + ", thank you for coming in today.\n")
+
+  
+##Coffee menu 
+menu = "Black Coffee, Espresso, Latte, Cold Brew\n"
+print(name + ", what would you like to drink today? Here is our menu: \n"
++ menu)
+##create a variable to respond to the order
+order = input()
+
+price = 5
+
+quant = input("\nHow many coffees would you like?\n")
+
+total = price * int(quant)
+
+print("Thank you. Your total is: $" + str(total))
+
+print("\nSounds good " + name + ", we'll have your " + quant + " " + order + " ready for you in a moment.")
