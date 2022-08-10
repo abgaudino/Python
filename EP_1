@@ -1,0 +1,25 @@
+#hey....there is nothing here. WAKE UP!!!
+
+print("Hello World!!!!!")
+#function and string
+print("I am Iron Man")
+print("No, I am Tony Stark")
+print("No, I am Poppy")
+#We are practicing Python and it is awesome!!
+#Comments explain your code
+
+## A multi line string
+print("""I am Iron Man.
+No, I am Tony Stark.
+No, I am Poppy.""")
+
+#concatenated string with no spaces
+print("I am Iron Man." + "No, I am Tony Stark." + "No, I am Poppy.")
+#concatenated string with spaces
+print("I am Iron Man. " + "No, I am Tony Stark. " + "No, I am Poppy. ")
+#concatenated string with line breaks
+print("I am Iron Man.\n" + "No, I am Tony Stark.\n" + "No, I am Poppy.\n")
+#multiply the string * 100
+print("I am Poppy" * 100)
+#multiply the string * 100 with line breaks
+print("I am Poppy\n" * 100)
