@@ -1,0 +1,33 @@
+#let's learn about lists
+
+#supplies = ["tent", "sleeping bags", "water", "rasberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
+
+
+#camp_site = ["Crystal Lake", 404, 95, 10, FALSE]
+
+#bernard = supplies[0]
+
+#print(bernard)
+
+#camping_stuff = "tent", "sleeping bags", "water", "rasberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"
+
+#print(camping_stuff)
+
+#PYTHON LIST
+
+camping_list = ["tent", "sleeping bags", "water", "rasberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
+
+#print(type(camping_list))
+
+#camp_site = ["Crystal Lake", 404, 89.3, TRUE]
+#List has a sting, an integer, a float, and a boolean
+
+me = camping_list[4]
+#call out the idexed item from list
+print(me)
+
+you= camping_list[9]
+you= camping_list[-1]
+print(you)
+
+print(camping_list)
