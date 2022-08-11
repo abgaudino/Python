@@ -1,0 +1,21 @@
+#obliterate data - remove items from list
+
+supplies = ["tent", "sleeping bags", "water", "rasberry pi", "coffee", "knife", "ethernet cable", "flash drive", "beard oil", "marshmallows"]
+
+#camp_site = ["Crystal Lake", 404, 89.3, TRUE]
+
+supplies.extend(["toilet paper", "bidet"])
+
+#print(supplies)
+
+#clear the list
+#supplies.clear()
+
+#print(supplies)
+
+#remove tent and sleeping bags
+#supplies.remove("tent")
+#supplies.remove("sleeping bags")
+print("This item was just deleted: " + supplies.pop(0))
+supplies.pop(0)
+print(supplies)
