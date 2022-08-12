@@ -1,0 +1,15 @@
+#bubble sort 
+
+#not a fast sorting algorithm. uses nested loops. useful for 1000s or 10000s, <1000000 items.
+#outer loop: i= 0 to n-1
+#inner loop: j = 0 to n-1-i
+
+def bubbleSort(myList):
+  for i in range (0, len(myList) - 1):
+    for j in range(0, len(myList) - 1 -i):
+      if myList[j] > myList[j+1]:
+          myList[j], myList[j+1] = myList[j+1], myList[j]
+  return myList
+
+theList = ['b', 'd', 'f', 'a', 'c', 'e']
+print(bubbleSort(theList))
