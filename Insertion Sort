@@ -1,0 +1,41 @@
+#insertion sort 
+
+#list A
+def insertion_sort(A): 
+  #outer loop i, variable "i" with range from 1 (second variable in list) to end of list
+  for i in range(1, len(A)):
+    #inner loop variable j from i-1 to 0, moving left (step of -1)
+    for j in range(i-1, 0, -1):
+      #comparison if item is less than item to its left, swap places
+      if A[j] > A[j+1]:
+        A[j], A[j+1] = A[j+1], A[j]
+      else:
+        break
+
+# or
+
+#list A
+def insertion_sort(A): 
+  #outer loop i, variable "i" with range from 1 (second variable in list) to end of list
+  for i in range(1, len(A)):
+    j = i-1
+    #while loop is cleaner
+    while A[j] > A[j+1] and j >= 0:
+        A[j], A[j+1] = A[j+1], A[j]
+        j -= 1
+  
+  # or
+  
+  #list A
+def insertion_sort(A): 
+  #outer loop i, variable "i" with range from 1 (second variable in list) to end of list
+  for i in range(1, len(A)):
+    curNum = A[i]
+    for j in range(i-1, 0, -1):
+      if A[j] > curNum:
+        A[j+1] = A[j]
+      else:
+        A[j+1] = curNum
+        break
+        
+ 
