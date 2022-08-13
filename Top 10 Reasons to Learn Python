@@ -1,0 +1,33 @@
+#What is Python?
+##Python is an object-oriented, high-level programming language with built-in data structures and dynamic semantics
+#Reasons to Learn Python
+
+# #10 - Ease of Use - simple syntax
+#Example:
+#Printing "Hello World" in Java               |    Printing "Hello World" in Python
+#                                             |    
+#  public class Main                          |   
+#  {                                          |         print("Hello World")
+#    public static void main(String[] args){  |
+#        System.out.printIn("Hello World");   |
+#    }                                        |
+#  }                                          |
+
+# #9 - Active community - massive community that can help with errors or issues with the software
+
+# #8 - Portable and Extensible - compatible with any non-native platforms; can be integrated with Java, .NET components, or C/C++ libraries
+
+# #7 - Testing Framworks - supports several built-in testing frameworks that help in debugging and speeding up workflows
+# #6 - Libraries and Packages - massive collection of libraries, packages, frameworks and modules for data manipulation, statistical calculation, web development, 
+#      machine learning, and data science
+# #5 - Scripting and Automation - can be used for writing scripts and automating workflows without human intervention
+# #4 - Web Development - provides a wide collection of frameworks that make it easier for developers to develop web applications
+# #3 - Machine Learning - simple syntax and support of machine learning libraries
+# #2 - Data Science - robust, scalable, and provide extensible visualization and graphics options 
+# #1 - Career Opportunities and Salary - high grow, huge salary prospects
+
+
+#Google trends shows Python is a frontrunner over Java and C++
+#Google search ranks Python above Java, JavaScript, C#, PHP, C/C++, and R
+
+# Career opportunities - Python dev, Web dev, data analyst, data scientist, machine learning engineer
