@@ -1,0 +1,64 @@
+ # a pythondev:
+  # develops back-end components of a web app using python 
+  # writes effective, testable, and scalable python code
+  # analyses data using python, if in the field of data science
+  # develops, deploys, debugs, and maintains a project
+ # skillset:
+  # data structures
+  # OOP concepts
+  # packages and functions
+  # database and connection
+  # data science:
+    # Numpy
+    # Pandas
+    # Scipy
+    # Matplotlib
+    # machine learning algos
+  # web dev skills
+    # django framework
+    # web scraping
+    # API handling
+    # back-end connection
+  # job roles
+    # developer
+      # write server-side code
+      # work on web frameworks like django and flask
+      # collaborate with the design team to gather end-users' reqs
+      # dev the server-side platform
+      # deploy applications
+      # perform tuning, usability, improvement, and automation
+    # data analyst
+      # works on python libraries - Matplotlib, NumPy, Pandas, etc
+      # data analysis
+      # collect data using script language
+      # explore data sets
+      # gather reqs
+      # tune applications
+      # analyze problems
+      # communicate findings with team or stakeholders
+    # automation test engineer
+      # work on Python test framework tools, including Pytest, PyUnit, etc
+      # perform complex system tests
+      # troubleshoot code issues
+      # create test scripts
+      # design the sutomation framework
+      # perform A/B testing
+    # machine learning engineer
+      # perform statistical analysis of data
+      # put machine learning models into production
+      # research and transform data science prototypes
+      # research and implement appropriate ML algos
+      # perform ML tests
+      # keep up to date with the latest ML trends
+    # software engineer
+      # write server-side code
+      # collaborate with the design team to gather end-users' reqs
+      # develop the server-side platform
+      # deploy applications
+      # perform tuning, usability, improvement, and automation
+  # salary trends 
+    # average python dev in US - $79k
+  # resume
+    # prioritize skills according to the job role
+    # summary, portfolio, projects, education, certificates, skills - tech/non-tech
+    
