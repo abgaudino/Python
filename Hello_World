@@ -1,0 +1,15 @@
+# Obligatory "Hello World" print statement
+#hello_world.py
+#call in command line: >python test.py
+#prints Hello World
+print("Hello World")
+
+#IDE - spyder in anaconda navigator for python 3.8
+print("I will perform basic math")
+a = 3
+b = 5
+c = a+b
+print("The result of 3 + 5 is", c)
+
+#jupyter notebook
+  #useful for presentations or teaching a class
