@@ -1,0 +1,103 @@
+#some basics
+
+#variables and expressions
+
+x = 100
+y = 100
+
+print(id(x), id(y))
+
+#object types
+
+# python data types
+  #numeric - integer, complex number, float
+  #dictionary
+  #boolean
+  #set
+  #sequence type - strings, list, tuple
+#indentity
+id('hello')
+print(id(50))
+
+#type conversion numeric data type
+x='145'
+print(type(x))
+print(int(x))
+y=int(x)
+print(y)
+print(type(y))
+
+z = int(x,8)
+#145 decimal,base 8
+print(z)
+
+print(float(120))
+
+h = hex(688)
+print(h)
+
+print(oct(688))
+
+c = complex(5,3.1)
+print(c)
+
+print(tuple('random'))
+print(list('random'))
+print(set('random'))
+
+print("It's my birthday") #use double quotes if single quotes are used in the string
+print('she said, "I am hungry"') #vice versa
+
+test = 'random'
+print(test[0])
+print(test[3])
+
+print(test.index('d'))
+#slice operation
+print(test[1:4]) 
+print(test[1:3])
+print(test[:])
+print(test[1:])
+print(test[:6])
+print(test[0:6:2])
+print(test[-1])
+test = 'UPPERlower'
+print(test.upper()), print(test.lower())
+
+test = 'hello world'
+sliced = test.split(" ")
+print(sliced)
+
+test = 'hello,world'
+sliced = test.split(",")
+print(sliced)
+
+#concatenation
+
+conc = 'first' + ' second'
+print(conc)
+
+#escape sequences \\\\\\\\\\!!!!!
+#error -> print('it's my birthday')
+print('it\'s my birthday')
+
+#\t tab space
+#\n line break
+
+# [lists] and tuples
+#lists are ordered, mutable, dynamic, can be manipulated using its index, nestable
+
+a =[1,2,3,4,5,6]
+print(a[3])
+
+a.append(8)
+print(a)
+
+a.extend([9,10])
+print(a)
+
+a.remove(8)
+print(a)
+
+a.pop()
+1:50:06
